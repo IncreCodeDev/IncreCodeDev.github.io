@@ -1,6 +1,5 @@
 var Money = 10;
-function Tick() {
+function GainMoney() {
 	Money++;
 }
-setInterval(Tick, 100);
 document.getElementById("money").innerHTML = Money;
